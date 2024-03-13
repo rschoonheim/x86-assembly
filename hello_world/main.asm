@@ -30,5 +30,3 @@ _start:
     mov ebx, 0
     ; Triggers the system call, linux kernel will take over.
     int 0x80
-
-
